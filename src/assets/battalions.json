@@ -1,0 +1,3089 @@
+[
+  {
+    "battalion": "Aegir Astral Knights",
+    "authority": "B",
+    "phys": 7,
+    "mag": -2,
+    "hit": null,
+    "crit": null,
+    "avo": 20,
+    "prot": 2,
+    "res": 2,
+    "cha": 7,
+    "movement": "Cavalry",
+    "gambit": "Assault Troop",
+    "cf": false,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "paralogue": {
+      "characters": [
+        { "name": "Lysithea", "required": true },
+        { "name": "Ferdinand", "required": true }
+      ],
+      "chapters": {
+        "ss": {
+          "start": 17,
+          "end": 20
+        },
+        "am": {
+          "start": 17,
+          "end": 21
+        },
+        "vw": {
+          "start": 17,
+          "end": 21
+        }
+      }
+    }
+  },
+  {
+    "battalion": "Alliance Archers",
+    "authority": "D",
+    "phys": 3,
+    "mag": -2,
+    "hit": 14,
+    "crit": null,
+    "avo": 10,
+    "prot": null,
+    "res": null,
+    "cha": 3,
+    "movement": "Infantry",
+    "gambit": "Poisoned Arrows",
+    "cf": false,
+    "ss": false,
+    "am": false,
+    "vw": true,
+    "shop": [{ "chapter": 8, "price": 1200 }]
+  },
+  {
+    "battalion": "Alliance Armored Co.",
+    "authority": "D",
+    "phys": 3,
+    "mag": -2,
+    "hit": 5,
+    "crit": null,
+    "avo": -5,
+    "prot": 4,
+    "res": null,
+    "cha": 3,
+    "movement": "Armored",
+    "gambit": "Disturbance",
+    "cf": false,
+    "ss": false,
+    "am": false,
+    "vw": true,
+    "shop": [{ "chapter": 8, "price": 1200 }]
+  },
+  {
+    "battalion": "Alliance Brawlers",
+    "authority": "E",
+    "phys": 4,
+    "mag": -2,
+    "hit": null,
+    "crit": null,
+    "avo": 10,
+    "prot": null,
+    "res": -1,
+    "cha": 1,
+    "movement": "Infantry",
+    "gambit": "Disturbance",
+    "cf": false,
+    "ss": false,
+    "am": false,
+    "vw": true,
+    "shop": [{ "chapter": 3, "price": 1200 }]
+  },
+  {
+    "battalion": "Alliance Cavalry",
+    "authority": "D",
+    "phys": 4,
+    "mag": -2,
+    "hit": null,
+    "crit": null,
+    "avo": 10,
+    "prot": null,
+    "res": null,
+    "cha": 3,
+    "movement": "Cavalry",
+    "gambit": "Assault Troop",
+    "cf": false,
+    "ss": false,
+    "am": false,
+    "vw": true,
+    "shop": [{ "chapter": 8, "price": 1200 }]
+  },
+  {
+    "battalion": "Alliance Duelists",
+    "authority": "E",
+    "phys": null,
+    "mag": -2,
+    "hit": null,
+    "crit": 9,
+    "avo": 10,
+    "prot": null,
+    "res": null,
+    "cha": 1,
+    "movement": "Infantry",
+    "gambit": "Mad Melee",
+    "cf": false,
+    "ss": false,
+    "am": false,
+    "vw": true,
+    "shop": [{ "chapter": 3, "price": 1200 }]
+  },
+  {
+    "battalion": "Alliance Guard",
+    "authority": "B",
+    "phys": 5,
+    "mag": null,
+    "hit": null,
+    "crit": 10,
+    "avo": 5,
+    "prot": 4,
+    "res": null,
+    "cha": 7,
+    "movement": "Infantry",
+    "gambit": "Poison Tactic",
+    "cf": false,
+    "ss": false,
+    "am": false,
+    "vw": true,
+    "shop": [{ "chapter": 14, "price": 1200 }]
+  },
+  {
+    "battalion": "Alliance Infantry",
+    "authority": "E",
+    "phys": null,
+    "mag": -2,
+    "hit": 9,
+    "crit": null,
+    "avo": 10,
+    "prot": null,
+    "res": null,
+    "cha": 1,
+    "movement": "Infantry",
+    "gambit": "Lure",
+    "cf": false,
+    "ss": false,
+    "am": false,
+    "vw": true,
+    "shop": [{ "chapter": 3, "price": 1200 }]
+  },
+  {
+    "battalion": "Alliance Knights",
+    "authority": "C",
+    "phys": 4,
+    "mag": -2,
+    "hit": null,
+    "crit": null,
+    "avo": 10,
+    "prot": 3,
+    "res": 1,
+    "cha": 5,
+    "movement": "Cavalry",
+    "gambit": "Blaze",
+    "cf": false,
+    "ss": false,
+    "am": false,
+    "vw": true,
+    "shop": [{ "chapter": 3, "price": 1000 }]
+  },
+  {
+    "battalion": "Alliance Magic Corps",
+    "authority": "D",
+    "phys": -2,
+    "mag": 3,
+    "hit": null,
+    "crit": null,
+    "avo": 10,
+    "prot": null,
+    "res": 4,
+    "cha": 3,
+    "movement": "Infantry",
+    "gambit": "Group Lightning",
+    "cf": false,
+    "ss": false,
+    "am": false,
+    "vw": true,
+    "shop": [{ "chapter": 3, "price": 1200 }]
+  },
+  {
+    "battalion": "Alliance Magic Users",
+    "authority": "C",
+    "phys": -2,
+    "mag": 4,
+    "hit": null,
+    "crit": null,
+    "avo": 10,
+    "prot": null,
+    "res": 4,
+    "cha": 5,
+    "movement": "Infantry",
+    "gambit": "Resonant Lightning",
+    "cf": false,
+    "ss": false,
+    "am": false,
+    "vw": true,
+    "shop": [{ "chapter": 8, "price": 1500 }]
+  },
+  {
+    "battalion": "Alliance Master Archers",
+    "authority": "B",
+    "phys": 4,
+    "mag": -1,
+    "hit": null,
+    "crit": 15,
+    "avo": 10,
+    "prot": 4,
+    "res": null,
+    "cha": 7,
+    "movement": "Infantry",
+    "gambit": "Flash-Fire Arrows",
+    "cf": false,
+    "ss": false,
+    "am": false,
+    "vw": true,
+    "shop": [{ "chapter": 14, "price": 2000 }]
+  },
+  {
+    "battalion": "Alliance Pavise Co.",
+    "authority": "B",
+    "phys": 4,
+    "mag": -2,
+    "hit": 5,
+    "crit": null,
+    "avo": -5,
+    "prot": 8,
+    "res": 1,
+    "cha": 7,
+    "movement": "Armored",
+    "gambit": "Group Lance Attack",
+    "cf": false,
+    "ss": false,
+    "am": false,
+    "vw": true,
+    "shop": [{ "chapter": 14, "price": 2000 }]
+  },
+  {
+    "battalion": "Alliance Pegasus Co.",
+    "authority": "D",
+    "phys": 4,
+    "mag": null,
+    "hit": 5,
+    "crit": null,
+    "avo": 10,
+    "prot": 2,
+    "res": 3,
+    "cha": 6,
+    "movement": "Flying",
+    "gambit": "Assembly",
+    "cf": false,
+    "ss": false,
+    "am": false,
+    "vw": true,
+    "shop": [{ "chapter": 8, "price": 1500 }]
+  },
+  {
+    "battalion": "Alliance Physicians",
+    "authority": "B",
+    "phys": null,
+    "mag": 3,
+    "hit": null,
+    "crit": null,
+    "avo": 10,
+    "prot": null,
+    "res": 4,
+    "cha": 7,
+    "movement": "Infantry",
+    "gambit": "Resonant White Magic",
+    "cf": false,
+    "ss": false,
+    "am": false,
+    "vw": true,
+    "shop": [{ "chapter": 14, "price": 2000 }]
+  },
+  {
+    "battalion": "Alliance Sages",
+    "authority": "B",
+    "phys": null,
+    "mag": 8,
+    "hit": 5,
+    "crit": 5,
+    "avo": -10,
+    "prot": null,
+    "res": 6,
+    "cha": 7,
+    "movement": "Infantry",
+    "gambit": "Blessing",
+    "cf": false,
+    "ss": false,
+    "am": false,
+    "vw": true,
+    "shop": [{ "chapter": 14, "price": 2000 }]
+  },
+  {
+    "battalion": "Alliance Snipers",
+    "authority": "C",
+    "phys": 3,
+    "mag": -2,
+    "hit": 15,
+    "crit": null,
+    "avo": 10,
+    "prot": null,
+    "res": null,
+    "cha": 5,
+    "movement": "Infantry",
+    "gambit": "Fusillade",
+    "cf": false,
+    "ss": false,
+    "am": false,
+    "vw": true,
+    "shop": [{ "chapter": 8, "price": 1500 }]
+  },
+  {
+    "battalion": "Alliance Veteran Duelists",
+    "authority": "C",
+    "phys": 4,
+    "mag": -2,
+    "hit": null,
+    "crit": null,
+    "avo": 10,
+    "prot": 3,
+    "res": null,
+    "cha": 5,
+    "movement": "Infantry",
+    "gambit": "Absorption",
+    "cf": false,
+    "ss": false,
+    "am": false,
+    "vw": true,
+    "shop": [{ "chapter": 8, "price": 1500 }]
+  },
+  {
+    "battalion": "Alliance Wyvern Co.",
+    "authority": "C",
+    "phys": 5,
+    "mag": -2,
+    "hit": null,
+    "crit": 5,
+    "avo": 10,
+    "prot": 3,
+    "res": null,
+    "cha": 5,
+    "movement": "Flying",
+    "gambit": "Impregnable Wall",
+    "cf": false,
+    "ss": false,
+    "am": false,
+    "vw": true,
+    "shop": [{ "chapter": 8, "price": 1500 }]
+  },
+  {
+    "battalion": "Alliance Youths",
+    "authority": "E",
+    "phys": null,
+    "mag": null,
+    "hit": 10,
+    "crit": null,
+    "avo": null,
+    "prot": null,
+    "res": null,
+    "cha": 1,
+    "movement": "Infantry",
+    "gambit": "Disturbance",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "quest": {
+      "Dealing with Deserters": [
+        { "chapter": 13, "route": "cf" },
+        { "chapter": 14, "route": "ss" },
+        { "chapter": 14, "route": "am" },
+        { "chapter": 14, "route": "vw" }
+      ]
+    }
+  },
+  {
+    "battalion": "Almyra Mercenaries",
+    "authority": "E",
+    "phys": 5,
+    "mag": null,
+    "hit": null,
+    "crit": null,
+    "avo": 10,
+    "prot": null,
+    "res": -2,
+    "cha": 1,
+    "movement": "Infantry",
+    "gambit": "Fusillade",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "quest": {
+      "Undercover Commerce": [
+        { "chapter": 15, "route": "cf" },
+        { "chapter": 15, "route": "ss" },
+        { "chapter": 15, "route": "am" },
+        { "chapter": 15, "route": "vw" }
+      ],
+      "Taking Care of Business": [
+        { "chapter": 16, "route": "ss" },
+        { "chapter": 16, "route": "vw" }
+      ]
+    },
+    "paralogue": {
+      "name": "Dividing the World",
+      "characters": [
+        { "name": "Cyril", "required": true },
+        { "name": "Hilda", "required": false }
+      ],
+      "chapters": {
+        "ss": {
+          "start": 12,
+          "end": 18
+        },
+        "am": {
+          "start": 10,
+          "end": 18
+        },
+        "vw": {
+          "start": 10,
+          "end": 18
+        }
+      }
+    }
+  },
+  {
+    "battalion": "Bandits",
+    "authority": "E",
+    "phys": 2,
+    "mag": null,
+    "hit": 5,
+    "crit": null,
+    "avo": 5,
+    "prot": 2,
+    "res": null,
+    "cha": 1,
+    "movement": "Infantry",
+    "gambit": "Disturbance",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "quest": {
+      "Clearing the Way": {
+        "chapter": 5
+      }
+    }
+  },
+  {
+    "battalion": "Bergliez War Group",
+    "authority": "B",
+    "phys": 8,
+    "mag": null,
+    "hit": 5,
+    "crit": null,
+    "avo": -10,
+    "prot": 4,
+    "res": null,
+    "cha": 7,
+    "movement": "Infantry",
+    "gambit": "Onslaught",
+    "cf": false,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "paralogue": {
+      "name": "The Face Beneath",
+      "characters": [
+        { "name": "Caspar", "required": true },
+        { "name": "Mercedes", "required": true }
+      ],
+      "chapters": {
+        "ss": {
+          "start": 15,
+          "end": 16
+        },
+        "am": {
+          "start": 15,
+          "end": 19
+        },
+        "vw": {
+          "start": 15,
+          "end": 17
+        }
+      }
+    }
+  },
+  {
+    "battalion": "Black Eagle Cavalry",
+    "authority": "A",
+    "phys": 7,
+    "mag": null,
+    "hit": 20,
+    "crit": null,
+    "avo": 5,
+    "prot": 5,
+    "res": null,
+    "cha": 10,
+    "movement": "Cavalry",
+    "gambit": "Linked Horses",
+    "cf": true,
+    "ss": true,
+    "am": false,
+    "vw": false,
+    "shop": [
+      { "chapter": 12, "price": 2500 },
+      { "chapter": 14, "price": 2500 }
+    ]
+  },
+  {
+    "battalion": "Black Eagle Heavy Axes",
+    "authority": "A",
+    "phys": 7,
+    "mag": null,
+    "hit": null,
+    "crit": 10,
+    "avo": -10,
+    "prot": 8,
+    "res": 2,
+    "cha": 10,
+    "movement": "Armored",
+    "gambit": "Onslaught",
+    "cf": true,
+    "ss": true,
+    "am": false,
+    "vw": false,
+    "shop": [
+      { "chapter": 12, "price": 2500 },
+      { "chapter": 14, "price": 2500 }
+    ]
+  },
+  {
+    "battalion": "Black Eagle Pegasus Co.",
+    "authority": "A",
+    "phys": 7,
+    "mag": null,
+    "hit": null,
+    "crit": 10,
+    "avo": 10,
+    "prot": 5,
+    "res": 7,
+    "cha": 10,
+    "movement": "Flying",
+    "gambit": "Retribution",
+    "cf": true,
+    "ss": true,
+    "am": false,
+    "vw": false,
+    "shop": [
+      { "chapter": 12, "price": 2500 },
+      { "chapter": 14, "price": 2500 }
+    ]
+  },
+  {
+    "battalion": "Blue Lion Dancers",
+    "authority": "A",
+    "phys": -1,
+    "mag": -1,
+    "hit": null,
+    "crit": null,
+    "avo": 20,
+    "prot": 3,
+    "res": 3,
+    "cha": 10,
+    "movement": "Infantry",
+    "gambit": "Dance of the Goddess",
+    "cf": false,
+    "ss": false,
+    "am": true,
+    "vw": false,
+    "shop": [{ "chapter": 14, "price": 2500 }]
+  },
+  {
+    "battalion": "Blue Lion Knights",
+    "authority": "A",
+    "phys": 7,
+    "mag": -2,
+    "hit": 5,
+    "crit": 15,
+    "avo": -10,
+    "prot": 5,
+    "res": null,
+    "cha": 10,
+    "movement": "Cavalry",
+    "gambit": "Linked Horses",
+    "cf": false,
+    "ss": false,
+    "am": true,
+    "vw": false,
+    "shop": [{ "chapter": 14, "price": 2500 }],
+    "paralogue": {
+      "name": "The Silver Maiden",
+      "characters": [{ "name": "Dimitri", "required": true }],
+      "chapters": {
+        "am": {
+          "start": 19,
+          "end": 21
+        }
+      }
+    }
+  },
+  {
+    "battalion": "Blue Lion Magic Corps",
+    "authority": "A",
+    "phys": -2,
+    "mag": 7,
+    "hit": 5,
+    "crit": null,
+    "avo": -10,
+    "prot": 5,
+    "res": 7,
+    "cha": 10,
+    "movement": "Infantry",
+    "gambit": "Resonant Ice",
+    "cf": false,
+    "ss": false,
+    "am": true,
+    "vw": false,
+    "shop": [{ "chapter": 14, "price": 2500 }]
+  },
+  {
+    "battalion": "Brigid Hunters",
+    "authority": "B",
+    "phys": 4,
+    "mag": -2,
+    "hit": null,
+    "crit": 10,
+    "avo": 20,
+    "prot": null,
+    "res": null,
+    "cha": 7,
+    "movement": "Infantry",
+    "gambit": "Poison Tactic",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "paralogue": {
+      "name": "Foreign Land and Sky",
+      "characters": [
+        { "name": "Bernadetta", "required": true },
+        { "name": "Petra", "required": true }
+      ],
+      "chapters": {
+        "cf": {
+          "start": 15,
+          "end": 17
+        },
+        "ss": {
+          "start": 15,
+          "end": 21
+        },
+        "am": {
+          "start": 15,
+          "end": 21
+        },
+        "vw": {
+          "start": 15,
+          "end": 18
+        }
+      }
+    }
+  },
+  {
+    "battalion": "Brigid Mercenaries",
+    "authority": "E",
+    "phys": 3,
+    "mag": null,
+    "hit": 10,
+    "crit": 10,
+    "avo": null,
+    "prot": null,
+    "res": null,
+    "cha": 1,
+    "movement": "Infantry",
+    "gambit": "Onslaught",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "paralogue": {
+      "name": "Foreign Land and Sky",
+      "characters": [
+        { "name": "Bernadetta", "required": true },
+        { "name": "Petra", "required": true }
+      ],
+      "chapters": {
+        "cf": {
+          "start": 15,
+          "end": 17
+        },
+        "ss": {
+          "start": 15,
+          "end": 21
+        },
+        "am": {
+          "start": 15,
+          "end": 21
+        },
+        "vw": {
+          "start": 15,
+          "end": 18
+        }
+      }
+    }
+  },
+  {
+    "battalion": "Cethleann Monks",
+    "authority": "A",
+    "phys": null,
+    "mag": 6,
+    "hit": 20,
+    "crit": null,
+    "avo": null,
+    "prot": 1,
+    "res": 7,
+    "cha": 10,
+    "movement": "Infantry",
+    "gambit": "Resonant White Magic",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "paralogue": {
+      "name": "An Ocean View",
+      "characters": [
+        { "name": "Flayn", "required": true },
+        { "name": "Seteth", "required": false }
+      ],
+      "chapters": {
+        "wc": {
+          "start": 9,
+          "end": 11
+        }
+      }
+    }
+  },
+  {
+    "battalion": "Church of Seiros Soldiers",
+    "authority": "E",
+    "phys": null,
+    "mag": null,
+    "hit": 5,
+    "crit": null,
+    "avo": null,
+    "prot": 3,
+    "res": 3,
+    "cha": 1,
+    "movement": "Infantry",
+    "gambit": "Disturbance",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "shop": [
+      { "chapter": 3, "price": 1000 },
+      { "chapter": 8, "price": 1000 }
+    ]
+  },
+  {
+    "battalion": "Church Soldiers",
+    "authority": "C",
+    "phys": null,
+    "mag": 3,
+    "hit": 5,
+    "crit": null,
+    "avo": null,
+    "prot": null,
+    "res": 6,
+    "cha": 5,
+    "movement": "Infantry",
+    "gambit": "Resonant White Magic",
+    "cf": false,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "paralogue": {
+      "name": "The Face Beneath",
+      "characters": [
+        { "name": "Caspar", "required": true },
+        { "name": "Mercedes", "required": true }
+      ],
+      "chapters": {
+        "ss": {
+          "start": 15,
+          "end": 16
+        },
+        "am": {
+          "start": 15,
+          "end": 19
+        },
+        "vw": {
+          "start": 15,
+          "end": 17
+        }
+      }
+    }
+  },
+  {
+    "battalion": "Cichol Wyvern Co.",
+    "authority": "A",
+    "phys": 7,
+    "mag": null,
+    "hit": 15,
+    "crit": 15,
+    "avo": 5,
+    "prot": 6,
+    "res": 1,
+    "cha": 10,
+    "movement": "Flying",
+    "gambit": "Assault Troop",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "paralogue": {
+      "name": "An Ocean View",
+      "characters": [
+        { "name": "Flayn", "required": true },
+        { "name": "Seteth", "required": false }
+      ],
+      "chapters": {
+        "wc": {
+          "start": 9,
+          "end": 11
+        }
+      }
+    }
+  },
+  {
+    "battalion": "Duscur Cavalry",
+    "authority": "E",
+    "phys": 4,
+    "mag": null,
+    "hit": null,
+    "crit": null,
+    "avo": -10,
+    "prot": 2,
+    "res": null,
+    "cha": 1,
+    "movement": "Cavalry",
+    "gambit": "Assault Troop",
+    "cf": false,
+    "ss": false,
+    "am": true,
+    "vw": false,
+    "quest": {
+      "Floral Tribute": [{ "chapter": 18, "route": "am" }]
+    }
+  },
+  {
+    "battalion": "Duscur Heavy Soldiers",
+    "authority": "B",
+    "phys": 8,
+    "mag": -2,
+    "hit": 5,
+    "crit": null,
+    "avo": -15,
+    "prot": 10,
+    "res": null,
+    "cha": 7,
+    "movement": "Armored",
+    "gambit": "Line of Lances",
+    "cf": false,
+    "ss": false,
+    "am": true,
+    "vw": false,
+    "paralogue": {
+      "name": "War for the Weak",
+      "characters": [{ "name": "Dedue", "required": true }],
+      "chapters": {
+        "wc": {
+          "start": 6,
+          "end": 11
+        }
+      }
+    }
+  },
+  {
+    "battalion": "Duscur Infantry",
+    "authority": "E",
+    "phys": 3,
+    "mag": -2,
+    "hit": null,
+    "crit": null,
+    "avo": 10,
+    "prot": 3,
+    "res": -1,
+    "cha": 1,
+    "movement": "Infantry",
+    "gambit": "Disturbance",
+    "cf": false,
+    "ss": false,
+    "am": true,
+    "vw": false,
+    "quest": {
+      "Taking Care of Business": [{ "chapter": 16, "route": "am" }]
+    }
+  },
+  {
+    "battalion": "Edmund Troops",
+    "authority": "B",
+    "phys": 5,
+    "mag": 5,
+    "hit": 40,
+    "crit": null,
+    "avo": null,
+    "prot": 2,
+    "res": 2,
+    "cha": 7,
+    "movement": "Infantry",
+    "gambit": "Flash-Fire Arrows",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "paralogue": {
+      "notes": "Requires C support with Byleth",
+      "name": "The Forgotten Hero",
+      "characters": [{ "name": "Marianne", "required": true }],
+      "chapters": {
+        "cf": {
+          "start": 15,
+          "end": 17
+        },
+        "ss": {
+          "start": 15,
+          "end": 21
+        },
+        "am": {
+          "start": 15,
+          "end": 21
+        },
+        "vw": {
+          "start": 15,
+          "end": 22
+        }
+      }
+    }
+  },
+  {
+    "battalion": "Empire Archers",
+    "authority": "D",
+    "phys": 3,
+    "mag": -2,
+    "hit": 15,
+    "crit": null,
+    "avo": null,
+    "prot": 3,
+    "res": null,
+    "cha": 3,
+    "movement": "Infantry",
+    "gambit": "Fusillade",
+    "cf": true,
+    "ss": true,
+    "am": false,
+    "vw": false,
+    "shop": [{ "chapter": 3, "price": 1200 }]
+  },
+  {
+    "battalion": "Empire Armored Co.",
+    "authority": "D",
+    "phys": 3,
+    "mag": -2,
+    "hit": 5,
+    "crit": null,
+    "avo": -10,
+    "prot": 5,
+    "res": null,
+    "cha": 3,
+    "movement": "Armoured",
+    "gambit": "Impregnable Wall",
+    "cf": true,
+    "ss": true,
+    "am": false,
+    "vw": false,
+    "shop": [{ "chapter": 8, "price": 1200 }]
+  },
+  {
+    "battalion": "Empire Brawlers",
+    "authority": "E",
+    "phys": 4,
+    "mag": -2,
+    "hit": null,
+    "crit": null,
+    "avo": 10,
+    "prot": null,
+    "res": -1,
+    "cha": 1,
+    "movement": "Infantry",
+    "gambit": "Disturbance",
+    "cf": true,
+    "ss": true,
+    "am": false,
+    "vw": false,
+    "shop": [{ "chapter": 3, "price": 1200 }]
+  },
+  {
+    "battalion": "Empire Cavalry",
+    "authority": "D",
+    "phys": 4,
+    "mag": -2,
+    "hit": null,
+    "crit": null,
+    "avo": 5,
+    "prot": 4,
+    "res": null,
+    "cha": 3,
+    "movement": "Cavalry",
+    "gambit": "Assault Troop",
+    "cf": true,
+    "ss": true,
+    "am": false,
+    "vw": false,
+    "shop": [{ "chapter": 8, "price": 1200 }]
+  },
+  {
+    "battalion": "Empire Elite Wyvern Co.",
+    "authority": "B",
+    "phys": 8,
+    "mag": -2,
+    "hit": null,
+    "crit": 10,
+    "avo": null,
+    "prot": 6,
+    "res": null,
+    "cha": 7,
+    "movement": "Flying",
+    "gambit": "Assembly",
+    "cf": true,
+    "ss": true,
+    "am": false,
+    "vw": false,
+    "shop": [
+      { "chapter": 12, "price": 2000 },
+      { "chapter": 14, "price": 2000 }
+    ]
+  },
+  {
+    "battalion": "Empire Heavy Soldiers",
+    "authority": "B",
+    "phys": 6,
+    "mag": -2,
+    "hit": 15,
+    "crit": null,
+    "avo": -10,
+    "prot": 9,
+    "res": 1,
+    "cha": 7,
+    "movement": "Armoured",
+    "gambit": "Line of Lances",
+    "cf": true,
+    "ss": true,
+    "am": false,
+    "vw": false,
+    "shop": [
+      { "chapter": 12, "price": 2000 },
+      { "chapter": 14, "price": 2000 }
+    ]
+  },
+  {
+    "battalion": "Empire Holy Magic Users",
+    "authority": "B",
+    "phys": -2,
+    "mag": 6,
+    "hit": null,
+    "crit": null,
+    "avo": null,
+    "prot": 4,
+    "res": 7,
+    "cha": 8,
+    "movement": "Infantry",
+    "gambit": "Blessing",
+    "cf": true,
+    "ss": true,
+    "am": false,
+    "vw": false,
+    "shop": [
+      { "chapter": 12, "price": 2000 },
+      { "chapter": 14, "price": 2000 }
+    ]
+  },
+  {
+    "battalion": "Empire Infantry",
+    "authority": "E",
+    "phys": null,
+    "mag": -2,
+    "hit": 10,
+    "crit": null,
+    "avo": null,
+    "prot": 3,
+    "res": null,
+    "cha": 1,
+    "movement": "Infantry",
+    "gambit": "Lure",
+    "cf": true,
+    "ss": true,
+    "am": false,
+    "vw": false,
+    "shop": [{ "chapter": 3, "price": 1000 }]
+  },
+  {
+    "battalion": "Empire Knights",
+    "authority": "C",
+    "phys": 5,
+    "mag": -2,
+    "hit": 5,
+    "crit": null,
+    "avo": null,
+    "prot": 4,
+    "res": null,
+    "cha": 5,
+    "movement": "Cavalry",
+    "gambit": "Blaze",
+    "cf": true,
+    "ss": true,
+    "am": false,
+    "vw": false,
+    "shop": [{ "chapter": 3, "price": 1500 }]
+  },
+  {
+    "battalion": "Empire Magic Corps",
+    "authority": "D",
+    "phys": -2,
+    "mag": 4,
+    "hit": null,
+    "crit": null,
+    "avo": null,
+    "prot": null,
+    "res": 4,
+    "cha": 3,
+    "movement": "Infantry",
+    "gambit": "Group Flames",
+    "cf": true,
+    "ss": true,
+    "am": false,
+    "vw": false,
+    "shop": [{ "chapter": 3, "price": 1200 }]
+  },
+  {
+    "battalion": "Empire Magic Users",
+    "authority": "C",
+    "phys": -2,
+    "mag": 5,
+    "hit": null,
+    "crit": 10,
+    "avo": null,
+    "prot": null,
+    "res": 4,
+    "cha": 5,
+    "movement": "Infantry",
+    "gambit": "Resonant Flames",
+    "cf": true,
+    "ss": true,
+    "am": false,
+    "vw": false,
+    "shop": [{ "chapter": 8, "price": 1200 }]
+  },
+  {
+    "battalion": "Empire Pavise Co.",
+    "authority": "C",
+    "phys": 2,
+    "mag": -2,
+    "hit": 5,
+    "crit": null,
+    "avo": -10,
+    "prot": 6,
+    "res": 1,
+    "cha": 5,
+    "movement": "Armored",
+    "gambit": "Blaze",
+    "cf": true,
+    "ss": true,
+    "am": false,
+    "vw": false,
+    "shop": [{ "chapter": 8, "price": 1200 }]
+  },
+  {
+    "battalion": "Empire Pegasus Co.",
+    "authority": "D",
+    "phys": 4,
+    "mag": null,
+    "hit": 15,
+    "crit": null,
+    "avo": null,
+    "prot": 3,
+    "res": 4,
+    "cha": 6,
+    "movement": "Flying",
+    "gambit": "Group Lance Attack",
+    "cf": true,
+    "ss": true,
+    "am": false,
+    "vw": false,
+    "shop": [{ "chapter": 8, "price": 1500 }]
+  },
+  {
+    "battalion": "Empire Raiders",
+    "authority": "B",
+    "phys": 7,
+    "mag": null,
+    "hit": null,
+    "crit": null,
+    "avo": 10,
+    "prot": 4,
+    "res": null,
+    "cha": 7,
+    "movement": "Infantry",
+    "gambit": "Absorption",
+    "cf": true,
+    "ss": true,
+    "am": false,
+    "vw": false,
+    "shop": [
+      { "chapter": 12, "price": 2000 },
+      { "chapter": 14, "price": 2000 }
+    ]
+  },
+  {
+    "battalion": "Empire Snipers",
+    "authority": "C",
+    "phys": 5,
+    "mag": -2,
+    "hit": 10,
+    "crit": null,
+    "avo": null,
+    "prot": 3,
+    "res": null,
+    "cha": 5,
+    "movement": "Infantry",
+    "gambit": "Flash-Fire Arrows",
+    "cf": true,
+    "ss": true,
+    "am": false,
+    "vw": false,
+    "shop": [{ "chapter": 8, "price": 1200 }]
+  },
+  {
+    "battalion": "Empire Warriors",
+    "authority": "E",
+    "phys": 4,
+    "mag": -2,
+    "hit": null,
+    "crit": null,
+    "avo": null,
+    "prot": null,
+    "res": null,
+    "cha": 1,
+    "movement": "Infantry",
+    "gambit": "Random Shot",
+    "cf": true,
+    "ss": true,
+    "am": false,
+    "vw": false,
+    "shop": [{ "chapter": 3, "price": 1000 }]
+  },
+  {
+    "battalion": "Empire Wyvern Co.",
+    "authority": "C",
+    "phys": 5,
+    "mag": -2,
+    "hit": 5,
+    "crit": 10,
+    "avo": null,
+    "prot": 4,
+    "res": null,
+    "cha": 5,
+    "movement": "Flying",
+    "gambit": "Reversal",
+    "cf": true,
+    "ss": true,
+    "am": false,
+    "vw": false,
+    "shop": [{ "chapter": 8, "price": 1500 }]
+  },
+  {
+    "battalion": "Empire Youths",
+    "authority": "E",
+    "phys": null,
+    "mag": null,
+    "hit": 10,
+    "crit": null,
+    "avo": null,
+    "prot": null,
+    "res": null,
+    "cha": 1,
+    "movement": "Infantry",
+    "gambit": "Disturbance",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "quest": {
+      "Cream of the Crop": {
+        "chapter": 10
+      }
+    }
+  },
+  {
+    "battalion": "Essar Research Group",
+    "authority": "E",
+    "phys": 5,
+    "mag": 5,
+    "hit": 30,
+    "crit": null,
+    "avo": null,
+    "prot": null,
+    "res": null,
+    "cha": 1,
+    "movement": "Infantry",
+    "gambit": "Blessing",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "notes": "Online Liason - 4 successful recon missions in 3 consecutive weeks"
+  },
+  {
+    "battalion": "Fraldarius Soldiers",
+    "authority": "B",
+    "phys": 7,
+    "mag": null,
+    "hit": null,
+    "crit": 20,
+    "avo": null,
+    "prot": 6,
+    "res": null,
+    "cha": 7,
+    "movement": "Infantry",
+    "gambit": "Onslaught",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "paralogue": {
+      "name": "true Chivalry",
+      "characters": [{ "name": "Felix", "required": true }],
+      "chapters": {
+        "wc": {
+          "start": 8,
+          "end": 11
+        }
+      }
+    }
+  },
+  {
+    "battalion": "Galatea Pegasus Co.",
+    "authority": "B",
+    "phys": 7,
+    "mag": null,
+    "hit": 5,
+    "crit": null,
+    "avo": 10,
+    "prot": 5,
+    "res": 6,
+    "cha": 8,
+    "movement": "Flying",
+    "gambit": "Lure",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "paralogue": {
+      "name": "Rumored Nupitals",
+      "characters": [
+        { "name": "Ingrid", "required": true },
+        { "name": "Dorothea", "required": false }
+      ],
+      "chapters": {
+        "wc": {
+          "start": 7,
+          "end": 11
+        }
+      }
+    }
+  },
+  {
+    "battalion": "Gaspard Knights",
+    "authority": "B",
+    "phys": 5,
+    "mag": null,
+    "hit": 5,
+    "crit": null,
+    "avo": -5,
+    "prot": 5,
+    "res": null,
+    "cha": 7,
+    "movement": "Armored",
+    "gambit": "Assault Troop",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "paralogue": {
+      "name": "Falling Short of Heaven",
+      "characters": [
+        { "name": "Ashe", "required": true },
+        { "name": "Catherine", "required": true }
+      ],
+      "chapters": {
+        "wc": {
+          "start": 9,
+          "end": 11
+        }
+      }
+    }
+  },
+  {
+    "battalion": "Gautier Knights",
+    "authority": "B",
+    "phys": 7,
+    "mag": -2,
+    "hit": null,
+    "crit": null,
+    "avo": 20,
+    "prot": 5,
+    "res": null,
+    "cha": 7,
+    "movement": "Cavalry",
+    "gambit": "Stride",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "paralogue": {
+      "name": "The Forgotten",
+      "characters": [{ "name": "Sylvain", "required": true }],
+      "chapters": {
+        "wc": {
+          "start": 7,
+          "end": 11
+        }
+      }
+    }
+  },
+  {
+    "battalion": "Gloucester Knights",
+    "authority": "B",
+    "phys": 6,
+    "mag": 6,
+    "hit": 15,
+    "crit": null,
+    "avo": null,
+    "prot": 5,
+    "res": 5,
+    "cha": 7,
+    "movement": "Cavalry",
+    "gambit": "Assault Troop",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "paralogue": {
+      "name": "Land of the Golden Deer",
+      "characters": [{ "name": "Lorenz", "required": true }],
+      "chapters": {
+        "wc": {
+          "start": 7,
+          "end": 11
+        }
+      }
+    }
+  },
+  {
+    "battalion": "Golden Deer Archers",
+    "authority": "A",
+    "phys": 2,
+    "mag": -2,
+    "hit": 25,
+    "crit": null,
+    "avo": 15,
+    "prot": 2,
+    "res": 3,
+    "cha": 10,
+    "movement": "Infantry",
+    "gambit": "Poison Tactic",
+    "cf": false,
+    "ss": false,
+    "am": false,
+    "vw": true,
+    "shop": [{ "chapter": 14, "price": 2500 }]
+  },
+  {
+    "battalion": "Golden Deer Cavalry",
+    "authority": "A",
+    "phys": 8,
+    "mag": -2,
+    "hit": 5,
+    "crit": null,
+    "avo": -5,
+    "prot": 7,
+    "res": 2,
+    "cha": 10,
+    "movement": "Cavalry",
+    "gambit": "Linked Horses",
+    "cf": false,
+    "ss": false,
+    "am": false,
+    "vw": true,
+    "shop": [{ "chapter": 14, "price": 2500 }]
+  },
+  {
+    "battalion": "Golden Deer Wyvern Co.",
+    "authority": "A",
+    "phys": 6,
+    "mag": -2,
+    "hit": 5,
+    "crit": null,
+    "avo": 10,
+    "prot": 3,
+    "res": null,
+    "cha": 10,
+    "movement": "Flying",
+    "gambit": "Assault Troop",
+    "cf": false,
+    "ss": false,
+    "am": false,
+    "vw": true,
+    "shop": [{ "chapter": 14, "price": 2500 }]
+  },
+  {
+    "battalion": "Goneril Valkyries",
+    "authority": "B",
+    "phys": 8,
+    "mag": -2,
+    "hit": 20,
+    "crit": 15,
+    "avo": null,
+    "prot": 6,
+    "res": 1,
+    "cha": 7,
+    "movement": "Infantry",
+    "gambit": "Assault Troop",
+    "cf": false,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "paralogue": {
+      "name": "Dividing the World",
+      "characters": [
+        { "name": "Cyril", "required": true },
+        { "name": "Hilda", "required": false }
+      ],
+      "chapters": {
+        "ss": {
+          "start": 12,
+          "end": 18
+        },
+        "am": {
+          "start": 10,
+          "end": 18
+        },
+        "vw": {
+          "start": 10,
+          "end": 18
+        }
+      }
+    }
+  },
+  {
+    "battalion": "Hevring Prayer Troops",
+    "authority": "B",
+    "phys": null,
+    "mag": 7,
+    "hit": 5,
+    "crit": null,
+    "avo": -10,
+    "prot": 4,
+    "res": 7,
+    "cha": 7,
+    "movement": "Infantry",
+    "gambit": "Blessing",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "paralogue": {
+      "name": "Legend of the Lake",
+      "characters": [
+        { "name": "Linhardt", "required": true },
+        { "name": "Leonie", "required": true }
+      ],
+      "chapters": {
+        "cf": {
+          "start": 15,
+          "end": 17
+        },
+        "ss": {
+          "start": 15,
+          "end": 21
+        },
+        "am": {
+          "start": 15,
+          "end": 21
+        },
+        "vw": {
+          "start": 15,
+          "end": 22
+        }
+      }
+    }
+  },
+  {
+    "battalion": "Holst's Chosen",
+    "authority": "C",
+    "phys": 7,
+    "mag": null,
+    "hit": 5,
+    "crit": 5,
+    "avo": null,
+    "prot": 7,
+    "res": null,
+    "cha": 3,
+    "movement": "Infantry",
+    "gambit": "Assault Troop",
+    "cf": true,
+    "ss": false,
+    "am": false,
+    "vw": false,
+    "paralogue": {
+      "name": "Insurmountable",
+      "characters": [{ "name": "Edelgard", "required": true }],
+      "chapters": {
+        "cf": {
+          "start": 15,
+          "end": 17
+        }
+      }
+    }
+  },
+  {
+    "battalion": "Holy Knights of Seiros",
+    "authority": "B",
+    "phys": 7,
+    "mag": -2,
+    "hit": null,
+    "crit": null,
+    "avo": null,
+    "prot": 5,
+    "res": 7,
+    "cha": 7,
+    "movement": "Cavalry",
+    "gambit": "Assault Troop",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "paralogue": {
+      "name": "Sword and Shield of Seiros",
+      "characters": [
+        { "name": "Alois", "required": false },
+        { "name": "Shamir", "required": true }
+      ],
+      "chapters": {
+        "wc": {
+          "start": 7,
+          "end": 11
+        }
+      }
+    }
+  },
+  {
+    "battalion": "Immortal Corps",
+    "authority": "C",
+    "phys": 8,
+    "mag": -2,
+    "hit": null,
+    "crit": null,
+    "avo": 15,
+    "prot": 4,
+    "res": null,
+    "cha": 10,
+    "movement": "Flying",
+    "gambit": "Ashes and Dust",
+    "special": "Claude's inventory in Chapter 13",
+    "cf": false,
+    "ss": false,
+    "am": false,
+    "vw": true
+  },
+  {
+    "battalion": "Imperial Guard",
+    "authority": "B",
+    "phys": 7,
+    "mag": -2,
+    "hit": null,
+    "crit": 10,
+    "avo": null,
+    "prot": 4,
+    "res": null,
+    "cha": 7,
+    "movement": "Armored",
+    "gambit": "Blaze",
+    "cf": true,
+    "ss": true,
+    "am": false,
+    "vw": false,
+    "shop": [
+      { "chapter": 12, "price": 2000 },
+      { "chapter": 14, "price": 2000 }
+    ]
+  },
+  {
+    "battalion": "Indech Sword Fighters",
+    "authority": "A",
+    "phys": 8,
+    "mag": -2,
+    "hit": 20,
+    "crit": 10,
+    "avo": null,
+    "prot": 4,
+    "res": null,
+    "cha": 10,
+    "movement": "Armored",
+    "gambit": "Retribution",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "notes": "Not purchasable in CF",
+    "shop": [{ "chapter": 14, "price": 2500 }],
+    "paralogue": {
+      "name": "Oil and Water",
+      "characters": [
+        { "name": "Manuela", "required": false },
+        { "name": "Hanneman", "required": true }
+      ],
+      "chapters": {
+        "wc": {
+          "start": 8,
+          "end": 11
+        }
+      }
+    }
+  },
+  {
+    "battalion": "Jeralt's Mercenaries",
+    "authority": "E",
+    "phys": 3,
+    "mag": null,
+    "hit": null,
+    "crit": 10,
+    "avo": 15,
+    "prot": null,
+    "res": null,
+    "cha": 1,
+    "movement": "Infantry",
+    "gambit": "Assault Troop",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "quest": {
+      "Leading the Charge": {
+        "chapter": 2
+      }
+    }
+  },
+  {
+    "battalion": "King of Lions Corps",
+    "authority": "C",
+    "phys": 10,
+    "mag": -2,
+    "hit": 5,
+    "crit": 15,
+    "avo": -5,
+    "prot": 5,
+    "res": null,
+    "cha": 10,
+    "movement": "Infantry",
+    "gambit": "Wave Attack",
+    "special": "Dimitri's inventory in Chapter 13",
+    "cf": false,
+    "ss": false,
+    "am": true,
+    "vw": false
+  },
+  {
+    "battalion": "Kingdom Archers",
+    "authority": "D",
+    "phys": 4,
+    "mag": -2,
+    "hit": 10,
+    "crit": null,
+    "avo": null,
+    "prot": 3,
+    "res": null,
+    "cha": 3,
+    "movement": "Infantry",
+    "gambit": "Retribution",
+    "cf": false,
+    "ss": false,
+    "am": true,
+    "vw": false,
+    "shop": [{ "chapter": 8, "price": 1200 }]
+  },
+  {
+    "battalion": "Kingdom Armored Co.",
+    "authority": "D",
+    "phys": 3,
+    "mag": -2,
+    "hit": 5,
+    "crit": null,
+    "avo": -10,
+    "prot": 5,
+    "res": null,
+    "cha": 3,
+    "movement": "Armored",
+    "gambit": "Impregnable Wall",
+    "cf": false,
+    "ss": false,
+    "am": true,
+    "vw": false,
+    "shop": [{ "chapter": 8, "price": 1200 }]
+  },
+  {
+    "battalion": "Kingdom Brave Lance Co.",
+    "authority": "C",
+    "phys": 4,
+    "mag": -2,
+    "hit": 20,
+    "crit": null,
+    "avo": 10,
+    "prot": 3,
+    "res": null,
+    "cha": 5,
+    "movement": "Infantry",
+    "gambit": "Onslaught",
+    "cf": false,
+    "ss": false,
+    "am": true,
+    "vw": false,
+    "shop": [{ "chapter": 8, "price": 1500 }]
+  },
+  {
+    "battalion": "Kingdom Brawlers",
+    "authority": "E",
+    "phys": 4,
+    "mag": -2,
+    "hit": null,
+    "crit": null,
+    "avo": 10,
+    "prot": null,
+    "res": -1,
+    "cha": 1,
+    "movement": "Infantry",
+    "gambit": "Disturbance",
+    "cf": false,
+    "ss": false,
+    "am": true,
+    "vw": false,
+    "shop": [{ "chapter": 3, "price": 1200 }]
+  },
+  {
+    "battalion": "Kingdom Cavalry",
+    "authority": "D",
+    "phys": 4,
+    "mag": -2,
+    "hit": 5,
+    "crit": null,
+    "avo": null,
+    "prot": 4,
+    "res": null,
+    "cha": 3,
+    "movement": "Cavalry",
+    "gambit": "Stride",
+    "cf": false,
+    "ss": false,
+    "am": true,
+    "vw": false,
+    "shop": [{ "chapter": 8, "price": 1200 }]
+  },
+  {
+    "battalion": "Kingdom Heavy Knights",
+    "authority": "B",
+    "phys": 4,
+    "mag": -2,
+    "hit": 15,
+    "crit": null,
+    "avo": -15,
+    "prot": 7,
+    "res": null,
+    "cha": 7,
+    "movement": "Armored",
+    "gambit": "Sacred Shield",
+    "cf": false,
+    "ss": false,
+    "am": true,
+    "vw": false,
+    "shop": [{ "chapter": 14, "price": 2000 }]
+  },
+  {
+    "battalion": "Kingdom Heavy Soldiers",
+    "authority": "B",
+    "phys": 4,
+    "mag": -2,
+    "hit": 5,
+    "crit": 5,
+    "avo": -10,
+    "prot": 7,
+    "res": null,
+    "cha": 7,
+    "movement": "Armored",
+    "gambit": "Group Lance Attack",
+    "cf": false,
+    "ss": false,
+    "am": true,
+    "vw": false,
+    "shop": [{ "chapter": 14, "price": 2000 }]
+  },
+  {
+    "battalion": "Kingdom Holy Knights",
+    "authority": "B",
+    "phys": 7,
+    "mag": -2,
+    "hit": 5,
+    "crit": null,
+    "avo": -10,
+    "prot": 5,
+    "res": 7,
+    "cha": 7,
+    "movement": "Cavalry",
+    "gambit": "Linked Horses",
+    "cf": false,
+    "ss": false,
+    "am": true,
+    "vw": false,
+    "shop": [{ "chapter": 14, "price": 2000 }]
+  },
+  {
+    "battalion": "Kingdom Infantry",
+    "authority": "E",
+    "phys": 3,
+    "mag": -2,
+    "hit": 5,
+    "crit": null,
+    "avo": null,
+    "prot": 3,
+    "res": null,
+    "cha": 1,
+    "movement": "Infantry",
+    "gambit": "Lure",
+    "cf": false,
+    "ss": false,
+    "am": true,
+    "vw": false,
+    "shop": [{ "chapter": 3, "price": 1000 }]
+  },
+  {
+    "battalion": "Kingdom Knights",
+    "authority": "C",
+    "phys": 5,
+    "mag": -2,
+    "hit": 5,
+    "crit": null,
+    "avo": null,
+    "prot": 4,
+    "res": 1,
+    "cha": 5,
+    "movement": "Cavalry",
+    "gambit": "Assault Troop",
+    "cf": false,
+    "ss": false,
+    "am": true,
+    "vw": false,
+    "shop": [{ "chapter": 3, "price": 1500 }]
+  },
+  {
+    "battalion": "Kingdom Lance Co.",
+    "authority": "E",
+    "phys": 3,
+    "mag": -2,
+    "hit": null,
+    "crit": null,
+    "avo": 10,
+    "prot": null,
+    "res": null,
+    "cha": 1,
+    "movement": "Infantry",
+    "gambit": "Group Lance Attack",
+    "cf": false,
+    "ss": false,
+    "am": true,
+    "vw": false,
+    "shop": [{ "chapter": 3, "price": 1200 }]
+  },
+  {
+    "battalion": "Kingdom Magic Corps",
+    "authority": "D",
+    "phys": -2,
+    "mag": 3,
+    "hit": 5,
+    "crit": null,
+    "avo": null,
+    "prot": 1,
+    "res": 4,
+    "cha": 3,
+    "movement": "Infantry",
+    "gambit": "Group Ice",
+    "cf": false,
+    "ss": false,
+    "am": true,
+    "vw": false,
+    "shop": [{ "chapter": 3, "price": 1200 }]
+  },
+  {
+    "battalion": "Kingdom Magic Users",
+    "authority": "C",
+    "phys": -2,
+    "mag": 5,
+    "hit": null,
+    "crit": null,
+    "avo": 5,
+    "prot": 1,
+    "res": 3,
+    "cha": 5,
+    "movement": "Infantry",
+    "gambit": "Resonant Ice",
+    "cf": false,
+    "ss": false,
+    "am": true,
+    "vw": false,
+    "shop": [{ "chapter": 8, "price": 1500 }]
+  },
+  {
+    "battalion": "Kingdom Pegasus Co.",
+    "authority": "D",
+    "phys": 4,
+    "mag": null,
+    "hit": 5,
+    "crit": null,
+    "avo": 5,
+    "prot": 3,
+    "res": 4,
+    "cha": 6,
+    "movement": "Flying",
+    "gambit": "Assembly",
+    "cf": false,
+    "ss": false,
+    "am": true,
+    "vw": false,
+    "shop": [{ "chapter": 8, "price": 1500 }]
+  },
+  {
+    "battalion": "Kingdom Priests",
+    "authority": "B",
+    "phys": null,
+    "mag": 5,
+    "hit": 5,
+    "crit": null,
+    "avo": -5,
+    "prot": null,
+    "res": 7,
+    "cha": 7,
+    "movement": "Infantry",
+    "gambit": "Blessing",
+    "cf": false,
+    "ss": false,
+    "am": true,
+    "vw": false,
+    "shop": [{ "chapter": 14, "price": 2000 }]
+  },
+  {
+    "battalion": "Kingdom Snipers",
+    "authority": "C",
+    "phys": 3,
+    "mag": -2,
+    "hit": 15,
+    "crit": null,
+    "avo": null,
+    "prot": 3,
+    "res": 1,
+    "cha": 5,
+    "movement": "Infantry",
+    "gambit": "Fusillade",
+    "cf": false,
+    "ss": false,
+    "am": true,
+    "vw": false,
+    "shop": [{ "chapter": 8, "price": 1500 }]
+  },
+  {
+    "battalion": "Kingdom Wyvern Co.",
+    "authority": "C",
+    "phys": 5,
+    "mag": -2,
+    "hit": 15,
+    "crit": 5,
+    "avo": null,
+    "prot": 4,
+    "res": null,
+    "cha": 5,
+    "movement": "Flying",
+    "gambit": "Recovery Roar",
+    "cf": false,
+    "ss": false,
+    "am": true,
+    "vw": false,
+    "shop": [{ "chapter": 8, "price": 1500 }]
+  },
+  {
+    "battalion": "Kingdom Youths",
+    "authority": "E",
+    "phys": null,
+    "mag": null,
+    "hit": 10,
+    "crit": null,
+    "avo": null,
+    "prot": null,
+    "res": null,
+    "cha": 1,
+    "movement": "Infantry",
+    "gambit": "Disturbance",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "quest": {
+      "Something to Prove": {
+        "chapter": 8
+      }
+    }
+  },
+  {
+    "battalion": "Knights of Seiros",
+    "authority": "C",
+    "phys": 4,
+    "mag": -1,
+    "hit": null,
+    "crit": null,
+    "avo": 5,
+    "prot": 3,
+    "res": 3,
+    "cha": 5,
+    "movement": "Cavalry",
+    "gambit": "Blaze",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "shop": [{ "chapter": 3, "price": 1200 }],
+    "recruitment": ["Alois"]
+  },
+  {
+    "battalion": "Leicester Dicers Corps",
+    "authority": "B",
+    "phys": 7,
+    "mag": 7,
+    "hit": 5,
+    "crit": null,
+    "avo": null,
+    "prot": 5,
+    "res": 5,
+    "cha": 5,
+    "movement": "Infantry",
+    "gambit": "Onslaught",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "notes": "Good luck",
+    "paralogue": {
+      "name": "Black Market Scheme",
+      "characters": [
+        { "name": "Balthus", "required": true },
+        { "name": "Hapi", "required": false }
+      ],
+      "chapters": {
+        "wc": {
+          "start": 7,
+          "end": 11
+        }
+      }
+    }
+  },
+  {
+    "battalion": "Leicester Mercenaries",
+    "authority": "B",
+    "phys": 7,
+    "mag": -2,
+    "hit": 20,
+    "crit": 15,
+    "avo": null,
+    "prot": 4,
+    "res": null,
+    "cha": 7,
+    "movement": "Infantry",
+    "gambit": "Blaze",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "paralogue": {
+      "name": "Death Toll",
+      "characters": [
+        { "name": "Ignatz", "required": true },
+        { "name": "Raphael", "required": false }
+      ],
+      "chapters": {
+        "wc": {
+          "start": 8,
+          "end": 11
+        }
+      }
+    }
+  },
+  {
+    "battalion": "Macuil Evil Repelling Co.",
+    "authority": "A",
+    "phys": null,
+    "mag": 7,
+    "hit": 30,
+    "crit": null,
+    "avo": null,
+    "prot": 1,
+    "res": 6,
+    "cha": 10,
+    "movement": "Infantry",
+    "gambit": "Resonant Lightning",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "notes": "Not purchasable in CF",
+    "shop": [{ "chapter": 14, "price": 2500 }],
+    "paralogue": {
+      "name": "Oil and Water",
+      "characters": [
+        { "name": "Manuela", "required": true },
+        { "name": "Hanneman", "required": false }
+      ],
+      "chapters": {
+        "wc": {
+          "start": 8,
+          "end": 11
+        }
+      }
+    }
+  },
+  {
+    "battalion": "Merchant Military",
+    "authority": "E",
+    "phys": -1,
+    "mag": 2,
+    "hit": 5,
+    "crit": null,
+    "avo": null,
+    "prot": 2,
+    "res": null,
+    "cha": 1,
+    "movement": "Infantry",
+    "gambit": "Poison Tactic",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "quest": {
+      "Clearing the Way": {
+        "chapter": 5
+      },
+      "Maintaining your Training": {
+        "chapter": 5
+      }
+    }
+  },
+  {
+    "battalion": "Mockingbird's Thieves",
+    "authority": "B",
+    "phys": 5,
+    "mag": 5,
+    "hit": 10,
+    "crit": 10,
+    "avo": 10,
+    "prot": 3,
+    "res": 3,
+    "cha": 5,
+    "movement": "Infantry",
+    "gambit": "Absorption",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "notes": "Good luck",
+    "paralogue": {
+      "name": "A Cursed Relic",
+      "characters": [
+        { "name": "Constance", "required": false },
+        { "name": "Yuri", "required": true }
+      ],
+      "chapters": {
+        "wc": {
+          "start": 7,
+          "end": 11
+        }
+      }
+    }
+  },
+  {
+    "battalion": "Morfis Magic Corps",
+    "authority": "C",
+    "phys": -2,
+    "mag": 5,
+    "hit": null,
+    "crit": null,
+    "avo": null,
+    "prot": 2,
+    "res": 5,
+    "cha": 5,
+    "movement": "Infantry",
+    "gambit": "Resonant Lightning",
+    "cf": true,
+    "ss": false,
+    "am": false,
+    "vw": true,
+    "quest": {
+      "Floral Tribute": [
+        { "chapter": 14, "route": "cf" },
+        { "chapter": 14, "route": "vw" }
+      ]
+    }
+  },
+  {
+    "battalion": "Nuvelle Attendants Co.",
+    "authority": "C",
+    "phys": null,
+    "mag": 8,
+    "hit": null,
+    "crit": 10,
+    "avo": 10,
+    "prot": 1,
+    "res": 7,
+    "cha": 5,
+    "movement": "Infantry",
+    "gambit": "Absolute Defense",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "notes": "DLC",
+    "quest": {
+      "A Servant's Essentials": {
+        "chapter": 9
+      }
+    }
+  },
+  {
+    "battalion": "Nuvelle Chamberlain Co.",
+    "authority": "C",
+    "phys": 8,
+    "mag": null,
+    "hit": 10,
+    "crit": 10,
+    "avo": null,
+    "prot": 1,
+    "res": 7,
+    "cha": 5,
+    "movement": "Infantry",
+    "gambit": "Battleground Café",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "notes": "DLC",
+    "quest": {
+      "A Servant's Essentials": {
+        "chapter": 9
+      }
+    }
+  },
+  {
+    "battalion": "Nuvelle Fliers Corps",
+    "authority": "B",
+    "phys": null,
+    "mag": 7,
+    "hit": 5,
+    "crit": null,
+    "avo": 10,
+    "prot": null,
+    "res": 7,
+    "cha": 8,
+    "movement": "Flying",
+    "gambit": "Resonant Lightning",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "notes": "Good luck",
+    "paralogue": {
+      "name": "A Cursed Relic",
+      "characters": [
+        { "name": "Constance", "required": true },
+        { "name": "Yuri", "required": false }
+      ],
+      "chapters": {
+        "wc": {
+          "start": 7,
+          "end": 11
+        }
+      }
+    }
+  },
+  {
+    "battalion": "Nuvelle Stewards Co.",
+    "authority": "C",
+    "phys": 5,
+    "mag": 5,
+    "hit": 10,
+    "crit": 10,
+    "avo": 5,
+    "prot": 1,
+    "res": 7,
+    "cha": 10,
+    "movement": "Infantry",
+    "gambit": "Battleground Clean Up",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "notes": "DLC",
+    "quest": {
+      "A Servant's Essentials": {
+        "chapter": 9
+      }
+    }
+  },
+  {
+    "battalion": "Opera Co. Volunteers",
+    "authority": "B",
+    "phys": null,
+    "mag": null,
+    "hit": 20,
+    "crit": null,
+    "avo": 15,
+    "prot": 4,
+    "res": null,
+    "cha": 10,
+    "movement": "Infantry",
+    "gambit": "Dance of the Goddess",
+    "special": "Enbarr (Ch. 18 SS, Ch. 19 VW, Ch. 21 AM). Move Dorothea or Manuela near the Opera House",
+    "cf": false,
+    "ss": true,
+    "am": true,
+    "vw": true
+  },
+  {
+    "battalion": "Ordelia Sorcery Co.",
+    "authority": "B",
+    "phys": -1,
+    "mag": 8,
+    "hit": 20,
+    "crit": null,
+    "avo": null,
+    "prot": null,
+    "res": 6,
+    "cha": 7,
+    "movement": "Infantry",
+    "gambit": "Resonant Lightning",
+    "cf": false,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "paralogue": {
+      "characters": [
+        { "name": "Lysithea", "required": true },
+        { "name": "Ferdinand", "required": true }
+      ],
+      "chapters": {
+        "ss": {
+          "start": 17,
+          "end": 20
+        },
+        "am": {
+          "start": 17,
+          "end": 21
+        },
+        "vw": {
+          "start": 17,
+          "end": 21
+        }
+      }
+    }
+  },
+  {
+    "battalion": "Pirates",
+    "authority": "E",
+    "phys": 2,
+    "mag": null,
+    "hit": 5,
+    "crit": null,
+    "avo": 5,
+    "prot": 2,
+    "res": null,
+    "cha": 1,
+    "movement": "Infantry",
+    "gambit": "Disturbance",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "quest": {
+      "Pirates in the North": {
+        "chapter": 14
+      }
+    }
+  },
+  {
+    "battalion": "Reaper Knights",
+    "authority": "B",
+    "phys": 7,
+    "mag": -2,
+    "hit": null,
+    "crit": 10,
+    "avo": 15,
+    "prot": 4,
+    "res": null,
+    "cha": 1,
+    "movement": "Cavalry",
+    "gambit": "Assault Troop",
+    "cf": true,
+    "ss": false,
+    "am": false,
+    "vw": false,
+    "notes": "Free DLC",
+    "quest": {
+      "Fight Alongside Death": [{ "chapter": 14, "route": "cf" }]
+    }
+  },
+  {
+    "battalion": "Remire Militia",
+    "authority": "E",
+    "phys": null,
+    "mag": null,
+    "hit": null,
+    "crit": null,
+    "avo": null,
+    "prot": 3,
+    "res": null,
+    "cha": 1,
+    "movement": "Infantry",
+    "gambit": "Disturbance",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "quest": {
+      "Banish the Bandits": {
+        "chapter": 7
+      }
+    }
+  },
+  {
+    "battalion": "Rogues",
+    "authority": "E",
+    "phys": 2,
+    "mag": null,
+    "hit": 5,
+    "crit": null,
+    "avo": 5,
+    "prot": 2,
+    "res": null,
+    "cha": 1,
+    "movement": "Infantry",
+    "gambit": "Disturbance",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "quest": {
+      "Pirates in the North": {
+        "chapter": 14
+      }
+    }
+  },
+  {
+    "battalion": "Royal Guard",
+    "authority": "B",
+    "phys": 6,
+    "mag": null,
+    "hit": 20,
+    "crit": 10,
+    "avo": -10,
+    "prot": 4,
+    "res": null,
+    "cha": 7,
+    "movement": "Infantry",
+    "gambit": "Line of Lances",
+    "cf": false,
+    "ss": false,
+    "am": true,
+    "vw": false,
+    "shop": [{ "chapter": 14, "price": 2000 }]
+  },
+  {
+    "battalion": "Sauin Militia",
+    "authority": "C",
+    "phys": 1,
+    "mag": null,
+    "hit": 20,
+    "crit": null,
+    "avo": 10,
+    "prot": 2,
+    "res": null,
+    "cha": 5,
+    "movement": "Infantry",
+    "gambit": "Poisoned Arrows",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "paralogue": {
+      "name": "Legend of the Lake",
+      "characters": [
+        { "name": "Linhardt", "required": true },
+        { "name": "Leonie", "required": true }
+      ],
+      "chapters": {
+        "cf": {
+          "start": 15,
+          "end": 17
+        },
+        "ss": {
+          "start": 15,
+          "end": 21
+        },
+        "am": {
+          "start": 15,
+          "end": 21
+        },
+        "vw": {
+          "start": 15,
+          "end": 22
+        }
+      }
+    }
+  },
+  {
+    "battalion": "School of Sorcery Soldiers",
+    "authority": "C",
+    "phys": -2,
+    "mag": 6,
+    "hit": 20,
+    "crit": null,
+    "avo": null,
+    "prot": null,
+    "res": 4,
+    "cha": 5,
+    "movement": "Infantry",
+    "gambit": "Resonant Flames",
+    "cf": false,
+    "ss": false,
+    "am": true,
+    "vw": false,
+    "notes": "Requires C rank support between both units",
+    "paralogue": {
+      "name": "Weathervanes of Fodlan",
+      "characters": [
+        { "name": "Annette", "required": true },
+        { "name": "Gilbert", "required": true }
+      ],
+      "chapters": {
+        "am": {
+          "start": 14,
+          "end": 18
+        }
+      }
+    }
+  },
+  {
+    "battalion": "Secret Transport Force",
+    "authority": "B",
+    "phys": 3,
+    "mag": null,
+    "hit": null,
+    "crit": null,
+    "avo": 15,
+    "prot": 5,
+    "res": 5,
+    "cha": 8,
+    "movement": "Flying",
+    "gambit": "Stride",
+    "cf": true,
+    "ss": false,
+    "am": true,
+    "vw": true,
+    "notes": "Good luck",
+    "paralogue": {
+      "name": "The Secret Merchant",
+      "characters": [
+        { "name": "Anna", "required": true },
+        { "name": "Jeritza", "required": true }
+      ],
+      "chapters": {
+        "cf": {
+          "start": 13,
+          "end": 17
+        },
+        "am": {
+          "start": 9,
+          "end": 11
+        },
+        "vw": {
+          "start": 9,
+          "end": 11
+        }
+      }
+    }
+  },
+  {
+    "battalion": "Seiros Archers",
+    "authority": "D",
+    "phys": 2,
+    "mag": null,
+    "hit": 15,
+    "crit": null,
+    "avo": 10,
+    "prot": null,
+    "res": null,
+    "cha": 3,
+    "movement": "Infantry",
+    "gambit": "Fusillade",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "shop": [{ "chapter": 8, "price": 1200 }],
+    "paralogue": {
+      "name": "Sword and Shield of Seiros",
+      "characters": [
+        { "name": "Alois", "required": false },
+        { "name": "Shamir", "required": true }
+      ],
+      "chapters": {
+        "wc": {
+          "start": 7,
+          "end": 11
+        }
+      }
+    }
+  },
+  {
+    "battalion": "Seiros Armored Co.",
+    "authority": "D",
+    "phys": 4,
+    "mag": null,
+    "hit": null,
+    "crit": null,
+    "avo": -10,
+    "prot": 4,
+    "res": null,
+    "cha": 3,
+    "movement": "Armored",
+    "gambit": "Onslaught",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "recruitment": ["Gilbert"],
+    "notes": "Recruitment option is AM only",
+    "shop": [{ "chapter": 8, "price": 1200 }]
+  },
+  {
+    "battalion": "Seiros Brawlers",
+    "authority": "E",
+    "phys": 4,
+    "mag": -2,
+    "hit": null,
+    "crit": null,
+    "avo": 10,
+    "prot": null,
+    "res": -1,
+    "cha": 1,
+    "movement": "Infantry",
+    "gambit": "Disturbance",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "shop": [{ "chapter": 8, "price": 1200 }]
+  },
+  {
+    "battalion": "Seiros Holy Monks",
+    "authority": "E",
+    "phys": -1,
+    "mag": null,
+    "hit": 10,
+    "crit": null,
+    "avo": null,
+    "prot": null,
+    "res": 3,
+    "cha": 1,
+    "movement": "Infantry",
+    "gambit": "Stride",
+    "cf": false,
+    "ss": false,
+    "am": true,
+    "vw": false,
+    "recruitment": ["Flayn", "Manuela"],
+    "shop": [{ "chapter": 3, "price": 1200 }]
+  },
+  {
+    "battalion": "Seiros Magic Corps",
+    "authority": "D",
+    "phys": -2,
+    "mag": 3,
+    "hit": 5,
+    "crit": null,
+    "avo": null,
+    "prot": null,
+    "res": 5,
+    "cha": 3,
+    "movement": "Infantry",
+    "gambit": "Group Flames",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "recruitment": ["Hanneman"],
+    "shop": [{ "chapter": 3, "price": 1200 }]
+  },
+  {
+    "battalion": "Seiros Mercenaries",
+    "authority": "E",
+    "phys": 3,
+    "mag": -2,
+    "hit": 10,
+    "crit": null,
+    "avo": null,
+    "prot": 2,
+    "res": null,
+    "cha": 1,
+    "movement": "Infantry",
+    "gambit": "Onslaught",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "recruitment": ["Catherine"],
+    "shop": [{ "chapter": 3, "price": 1200 }]
+  },
+  {
+    "battalion": "Seiros Pegasus Co.",
+    "authority": "D",
+    "phys": 4,
+    "mag": null,
+    "hit": null,
+    "crit": null,
+    "avo": 5,
+    "prot": 2,
+    "res": 5,
+    "cha": 5,
+    "movement": "Flying",
+    "gambit": "Assembly",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "notes": "Recruitment option not on CF",
+    "recruitment": ["Seteth"],
+    "shop": [{ "chapter": 3, "price": 1200 }]
+  },
+  {
+    "battalion": "Seiros Sacred Monks",
+    "authority": "E",
+    "phys": -1,
+    "mag": null,
+    "hit": 10,
+    "crit": null,
+    "avo": null,
+    "prot": null,
+    "res": 4,
+    "cha": 1,
+    "movement": "Infantry",
+    "gambit": "Resonant White Magic",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "shop": [{ "chapter": 3, "price": 1200 }]
+  },
+  {
+    "battalion": "Supreme Armored Co.",
+    "authority": "C",
+    "phys": 7,
+    "mag": 6,
+    "hit": 5,
+    "crit": null,
+    "avo": -10,
+    "prot": 6,
+    "res": 5,
+    "cha": 10,
+    "movement": "Armored",
+    "gambit": "Raging Flames",
+    "cf": true,
+    "ss": false,
+    "am": false,
+    "vw": false,
+    "special": "Edelgard's Inventory in Chapter 13"
+  },
+  {
+    "battalion": "Thieves",
+    "authority": "E",
+    "phys": 2,
+    "mag": null,
+    "hit": 5,
+    "crit": null,
+    "avo": 5,
+    "prot": 2,
+    "res": null,
+    "cha": 1,
+    "movement": "Infantry",
+    "gambit": "Disturbance",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "quest": {
+      "Taking Care of Business": {
+        "chapter": 16
+      }
+    }
+  },
+  {
+    "battalion": "Timotheos Magi Corps",
+    "authority": "B",
+    "phys": null,
+    "mag": 8,
+    "hit": 10,
+    "crit": 10,
+    "avo": null,
+    "prot": 2,
+    "res": 5,
+    "cha": 7,
+    "movement": "Infantry",
+    "gambit": "Resonant Flames",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "notes": "Good luck",
+    "paralogue": {
+      "name": "Black Market Scheme",
+      "characters": [
+        { "name": "Balthus", "required": false },
+        { "name": "Hapi", "required": true }
+      ],
+      "chapters": {
+        "wc": {
+          "start": 7,
+          "end": 11
+        }
+      }
+    }
+  },
+  {
+    "battalion": "Varley Archers",
+    "authority": "B",
+    "phys": null,
+    "mag": null,
+    "hit": 30,
+    "crit": null,
+    "avo": -10,
+    "prot": 5,
+    "res": null,
+    "cha": 7,
+    "movement": "Infantry",
+    "gambit": "Fusillade",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "paralogue": {
+      "name": "Foreign Land and Sky",
+      "characters": [
+        { "name": "Bernadetta", "required": true },
+        { "name": "Petra", "required": true }
+      ],
+      "chapters": {
+        "cf": {
+          "start": 15,
+          "end": 17
+        },
+        "ss": {
+          "start": 15,
+          "end": 21
+        },
+        "am": {
+          "start": 15,
+          "end": 21
+        },
+        "vw": {
+          "start": 15,
+          "end": 18
+        }
+      }
+    }
+  },
+  {
+    "battalion": "Vestra Sorcery Engineers",
+    "authority": "C",
+    "phys": -2,
+    "mag": 7,
+    "hit": null,
+    "crit": null,
+    "avo": 10,
+    "prot": 4,
+    "res": 6,
+    "cha": 7,
+    "movement": "Infantry",
+    "gambit": "Resonant Lightning",
+    "cf": true,
+    "ss": false,
+    "am": false,
+    "vw": false,
+    "paralogue": {
+      "name": "Darkness Beneath the Earth",
+      "characters": [{ "name": "Hubert", "required": true }],
+      "chapters": {
+        "cf": {
+          "start": 15,
+          "end": 17
+        }
+      }
+    }
+  },
+  {
+    "battalion": "Victor Private Military",
+    "authority": "C",
+    "phys": 6,
+    "mag": null,
+    "hit": 15,
+    "crit": null,
+    "avo": null,
+    "prot": 2,
+    "res": 4,
+    "cha": 5,
+    "movement": "Infantry",
+    "gambit": "Assembly",
+    "cf": true,
+    "ss": true,
+    "am": true,
+    "vw": true,
+    "paralogue": {
+      "name": "Death Toll",
+      "characters": [
+        { "name": "Ignatz", "required": false },
+        { "name": "Raphael", "required": true }
+      ],
+      "chapters": {
+        "wc": {
+          "start": 8,
+          "end": 11
+        }
+      }
+    }
+  }
+]
