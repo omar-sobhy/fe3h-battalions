@@ -44,4 +44,4 @@ jobs:
         with:
           files:
             /build
-          tag_name: ${{github.event.inpus.tag}}
+          tag_name: ${{inputs.tag}}
