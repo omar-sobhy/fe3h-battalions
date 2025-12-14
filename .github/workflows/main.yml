@@ -1,3 +1,5 @@
+name: Create release
+
 on:
   workflow_dispatch:
     inputs:
@@ -5,8 +7,6 @@ on:
         type: string
         description: Tag
         required: true
-
-name: Create release
 
 jobs:
   build:
