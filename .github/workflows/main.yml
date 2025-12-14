@@ -1,0 +1,43 @@
+on:
+  workflow_dispatch:      
+
+name: Create release
+
+jobs:
+  build:
+    name: Build application
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Setup node
+        uses: actions/setup-node@v6
+      - name: Install npm
+        run: npm i -g npm@latest
+      - name: Install dependencies
+        uses: bahmutov/npm-install@v1
+      - name: Buid
+        run: npm run build
+      - name: Generate production artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: build
+          path: build
+
+  release:
+    name: Release
+    needs:
+      - build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Download build artifacts
+        uses: actions/download-artifact@v2
+        with:
+          name: build
+          path: build
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files:
+            /build
