@@ -43,6 +43,6 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files:
-            /dist
+            dist
           tag_name: ${{inputs.tag}}
           token: ${{secrets.GA_TOKEN}}
