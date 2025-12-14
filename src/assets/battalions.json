@@ -2191,8 +2191,8 @@
     "ss": true,
     "am": true,
     "vw": true,
-    "notes": "Good luck",
     "paralogue": {
+      "notes": "Good luck",
       "name": "Black Market Scheme",
       "characters": [
         { "name": "Balthus", "required": true },
@@ -2313,8 +2313,8 @@
     "ss": true,
     "am": true,
     "vw": true,
-    "notes": "Good luck",
     "paralogue": {
+      "notes": "Good luck",
       "name": "A Cursed Relic",
       "characters": [
         { "name": "Constance", "required": false },
@@ -2417,8 +2417,8 @@
     "ss": true,
     "am": true,
     "vw": true,
-    "notes": "Good luck",
     "paralogue": {
+      "notes": "Good luck",
       "name": "A Cursed Relic",
       "characters": [
         { "name": "Constance", "required": true },
@@ -2683,8 +2683,8 @@
     "ss": false,
     "am": true,
     "vw": false,
-    "notes": "Requires C rank support between both units",
     "paralogue": {
+      "notes": "Requires C rank support between both units",
       "name": "Weathervanes of Fodlan",
       "characters": [
         { "name": "Annette", "required": true },
@@ -2715,8 +2715,8 @@
     "ss": false,
     "am": true,
     "vw": true,
-    "notes": "Good luck",
     "paralogue": {
+      "notes": "Good luck",
       "name": "The Secret Merchant",
       "characters": [
         { "name": "Anna", "required": true },
@@ -2969,8 +2969,8 @@
     "ss": true,
     "am": true,
     "vw": true,
-    "notes": "Good luck",
     "paralogue": {
+      "notes": "Good luck",
       "name": "Black Market Scheme",
       "characters": [
         { "name": "Balthus", "required": false },

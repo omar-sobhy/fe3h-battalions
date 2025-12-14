@@ -175,6 +175,7 @@
     {
       headerName: 'Quest',
       autoHeight: true,
+      sortable: false,
       cellRenderer(p: ICellRendererParams<Battalion>) {
         const special = p.data?.special;
         if (special) {
@@ -283,7 +284,7 @@
 </script>
 
 <ModeWatcher defaultMode={'dark'} />
-<main class="flex flex-col grow-[1_90] w-full h-full p-5">
+<main class="flex flex-col grow-[1_90_1_1] w-full h-full p-5">
   <div class="flex justify-center">
     <Menubar
       class="w-85/100 bg-[#bbbbbb] dark:bg-[#1f324d] rounded-none rounded-t-lg rounded-tr-lg"
@@ -308,7 +309,32 @@
       </MenubarMenu>
     </Menubar>
   </div>
-  <div class="w-full h-full flex justify-center">
+  <div class="w-full h-75/100 flex justify-center">
     <div id="table" bind:this={table} class="w-85/100 h-full"></div>
+  </div>
+  <hr class="block w-85/100 mx-auto mt-3 border-foreground" />
+  <div class="w-85/100 mx-auto">
+    <h1 class="text-xl">Usage notes</h1>
+    <ul>
+      <li class="list-disc list-inside">
+        Click on the "Columns" button above the table to remove unwanted columns
+        from the view
+      </li>
+      <li class="list-disc list-inside">
+        If a battalion is obtained from a paralogue, there will be an entry in
+        the "Paralogue" cell for that battalion. Character names in bold face
+        indicate that that character must be recruited to get the battalion as a
+        reward at the end of the paralogue
+      </li>
+      <li class="list-disc list-inside">
+        The battalion guild updates at chapters 3 and 8. For CF only, it also
+        updates at chapter 12. For other routes, it updates at chapter 14
+        instead
+      </li>
+      <li class="list-disc list-inside">
+        Vertical scrolling with middle mouse click doesn't work. This is an
+        unfortunate limitation of the library used for the data table
+      </li>
+    </ul>
   </div>
 </main>
