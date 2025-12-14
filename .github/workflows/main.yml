@@ -39,10 +39,12 @@ jobs:
         with:
           name: dist
           path: dist
+      - name: Create archive
+        run: tar -cf dist.tar ${{github.workspace}}/dist
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
           files:
-            ${{github.workspace}}/dist/*
+            ${{github.workspace}}/dist.tar
           tag_name: ${{inputs.tag}}
           token: ${{secrets.GA_TOKEN}}
