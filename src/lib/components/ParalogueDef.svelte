@@ -27,7 +27,8 @@
     <span
       class={[
         paralogue.characters[1].required ? 'font-bold' : 'font-normal',
-        spoiler ? 'bg-black' : 'text-black',
+        spoiler ? 'bg-black' : '',
+        spoiler ? 'text-black' : '',
       ]}
     >
       {paralogue.characters[1].name}
