@@ -43,6 +43,6 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files:
-            ${{GITHUB_WORKSPACE}}/dist
+            ${{github.workspace}}/dist
           tag_name: ${{inputs.tag}}
           token: ${{secrets.GA_TOKEN}}
